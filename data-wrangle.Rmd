@@ -1,0 +1,59 @@
+---
+title: "HW3-508"
+author: "YEBEI YAO"
+date: "11/30/2021"
+output:
+  html_document:
+    highlight: zenburn
+    theme: flatly
+    toc: true
+    toc_float: true
+    code_folding: hide
+---
+
+**01.set up**
+========================================
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+
+library(tidyverse)
+library(sf)
+#install.packages('RSocrata')
+library(RSocrata)
+library(viridis)
+library(spatstat)
+library(raster)
+library(spdep)
+library(FNN)
+library(grid)
+library(gridExtra)
+library(knitr)
+library(kableExtra)
+library(tidycensus)
+library(tidyr)
+library(dplyr)
+library(magrittr)
+library(mapview)
+library(caret)
+library(ckanr) 
+library(ggcorrplot)
+library(jtools)     
+library(stargazer) 
+library(broom)
+library(tufte)
+library(rmarkdown)
+library(viridis)
+library(spatstat) 
+library(rgdal)
+
+
+# functions
+root.dir = "https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/DATA/"
+source("https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/functions.r")
+
+```
+```{r}
+setwd("C:\\Users\\candice\\Desktop\\Class\\MUSA508 public policy analytics\\Final\\data")
+bars<-st_read('Mesa_Bars.csv',crs='ESRI:102249')
+plot(bars)
+```
