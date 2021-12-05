@@ -1,0 +1,1070 @@
+﻿PLACEKEY,PARENT_PLACEKEY,LOCATION_NAME,SAFEGRAPH_BRAND_IDS,BRANDS,TOP_CATEGORY,SUB_CATEGORY,NAICS_CODE,LATITUDE,LONGITUDE,STREET_ADDRESS,CITY,REGION,POSTAL_CODE,ISO_COUNTRY_CODE,PHONE_NUMBER,OPEN_HOURS,CATEGORY_TAGS,OPENED_ON,CLOSED_ON,TRACKING_CLOSED_SINCE,GEOMETRY_TYPE
+zzw-225@8ts-zc9-r6k,zzw-222@8ts-zc9-s89,Time Out Sports Bar & Grill,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.383439,-111.74322,1762 S Greenfield Rd,Mesa,AZ,85206,US,+14809268500,,,,,2019-07,POLYGON
+222-224@8ts-zg8-tgk,222-226@8ts-zg8-tgk,BoxBar Sports & Brews,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.435871,-111.865714,1065 N Dobson Rd,Mesa,AZ,85201,US,+14809779590,,"Bar or Pub,Sports Bar,Late Night",,,2019-07,POLYGON
+zzw-224@8ts-zr6-9mk,,Office Sports Bar,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.408854,-111.789046,330 S Gilbert Rd Ste 3,Mesa,AZ,85204,US,,,"Bar or Pub,Sports Bar,Late Night",,,2019-07,POLYGON
+zzw-223@8ts-zbf-py9,,Long Wong's,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.387613,-111.804938,1455 S Stapley Dr,Mesa,AZ,85204,US,+14804975595,,"Bar or Pub,Late Night,Chicken Wings",,2020-01,2019-07,POLYGON
+zzw-227@8ts-zgd-d5f,,Gabby's Sports Bar and Grill,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.42682,-111.839345,635 N Country Club Dr,Mesa,AZ,85201,US,+14808279776,"{
+  ""Fri"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+225-222@8ts-zn7-grk,,R T O'Sullivan's,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.384996,-111.686828,6646 E Superstition Springs Blvd,Mesa,AZ,85206,US,+14803969933,,"Irish Food,Bar or Pub,Sports Bar,Late Night",,,2019-07,POLYGON
+223-222@8ts-zs2-4gk,,G Bar G Lounge,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.41598,-111.716282,5324 E Main St,Mesa,AZ,85205,US,+14809854381,"{
+  ""Fri"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""6:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""6:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""6:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""6:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""6:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""6:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""6:00"",
+      ""24:00""
+    ]
+  ]
+}","Bar or Pub,Cocktail Lounge,Late Night",,,2019-07,POLYGON
+226-222@8ts-zmk-mkz,,Pour Wine and Taproom,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.362634,-111.635234,2905 S Ellsworth Rd Ste 103,Mesa,AZ,85212,US,,"{
+  ""Fri"": [
+    [
+      ""14:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""14:00"",
+      ""22:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""14:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""14:00"",
+      ""22:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""14:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""14:00"",
+      ""22:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""14:00"",
+      ""22:00""
+    ]
+  ]
+}","Bar or Pub,Late Night,Wine Bar",,,2019-07,POLYGON
+223-222@8ts-zmz-psq,,Stix R & R,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.415355,-111.692276,6429 E Main St,Mesa,AZ,85205,US,+14808079775,,Late Night,,2020-01,2019-07,POLYGON
+222-223@8ts-zgk-j5f,,Pair Cupworks,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.414097,-111.836372,31 S Robson,Mesa,AZ,85210,US,,,Coffee Shop,,,2019-07,POLYGON
+222-222@8ts-zgj-j35,,Groggy's,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.414444,-111.879059,2207 W Main St,Mesa,AZ,85201,US,+14809697648,"{
+  ""Fri"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""6:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""6:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ]
+}","Bar or Pub,Late Night,Dive Bar",,,2019-07,POLYGON
+225-222@8ts-zbg-pqf,,White Cloud Hookah,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.388616,-111.839349,1423 S Country Club Dr Ste 3,Mesa,AZ,85210,US,+14802690417,,"Bar or Pub,Late Night",,,2019-07,POLYGON
+224-222@8ts-zr9-qxq,,Roosters Country,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.41506,-111.750457,3731 E Main St,Mesa,AZ,85205,US,+14809854088,,"Bar or Pub,Sports Bar,Late Night",,,2019-07,POLYGON
+zzw-226@8ts-zj9-vpv,229-222@8ts-zj9-vzz,Tipsy Cactus TapRoom & Bottle Shop,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.365981,-111.85967,2722 S Alma School Rd Ste 1,Mesa,AZ,85210,US,+14802689887,"{
+  ""Fri"": [
+    [
+      ""14:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""14:00"",
+      ""22:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""14:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""14:00"",
+      ""22:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""14:00"",
+      ""23:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""14:00"",
+      ""22:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""14:00"",
+      ""23:00""
+    ]
+  ]
+}","Bar or Pub,Late Night,Wine Bar",,,2019-07,POLYGON
+227-222@8ts-zgm-9cq,,The Latin Kitchen,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.408298,-111.843639,540 W Broadway Rd Ste 101,Mesa,AZ,85210,US,+14803067266,"{
+  ""Fri"": [
+    [
+      ""11:00"",
+      ""18:00""
+    ]
+  ],
+  ""Mon"": [],
+  ""Sat"": [
+    [
+      ""11:00"",
+      ""18:00""
+    ]
+  ],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""11:00"",
+      ""15:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""11:00"",
+      ""15:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""11:00"",
+      ""15:00""
+    ]
+  ]
+}","Bar or Pub,Late Night,Cuban Food,Latin American Food",,2020-01,2019-07,POLYGON
+223-222@8ts-zj3-jn5,zzw-223@8ts-zgh-cyv,YZ's Karaoke Cafe,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.388984,-111.864625,1350 S Longmore,Mesa,AZ,85202,US,+14803067779,"{
+  ""Fri"": [
+    [
+      ""0:00"",
+      ""4:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""4:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""4:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ]
+}","Bar or Pub,Late Night,Asian Food",,,2019-07,POLYGON
+zzw-222@8ts-zrw-3nq,zzy-222@8ts-zrv-ct9,Flights Wine Taproom,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.457441,-111.727401,4800 E Falcon Dr,Mesa,AZ,85215,US,,,"Bar or Pub,Late Night,Wine Bar",,,2019-07,POLYGON
+22f-222@8ts-zk2-dd9,,Mr Brews Taphouse Mesa,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.39488,-111.59742,1113 S Signal Butte Rd Ste 106,Mesa,AZ,85208,US,+14804788705,,"Burgers,Bar or Pub,Late Night,American Food",,,2019-07,POLYGON
+zzw-223@8ts-zg8-tgk,222-226@8ts-zg8-tgk,Modern Round,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.435876,-111.865706,1065 N Dobson Rd The Revelry,Mesa,AZ,85201,US,+14805976661,,"Bar or Pub,Cocktail Lounge,Late Night",,,2019-07,POLYGON
+228-223@8ts-zc2-3wk,,Beast of Bourbon Bar & Grill,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.374148,-111.687158,2235 S Power Rd,Mesa,AZ,85209,US,+14804261005,"{
+  ""Fri"": [
+    [
+      ""11:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""11:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""11:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""11:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""11:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""11:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""11:00"",
+      ""24:00""
+    ]
+  ]
+}","Late Night,American Food,Sports Bar,Bar or Pub,Burgers",,,2019-07,POLYGON
+zzw-222@8ts-zrw-54v,,Mesa Sports Grill,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.451079,-111.732332,4545 E McKellips Rd Ste 108,Mesa,AZ,85215,US,+14808073500,,"Bar or Pub,Sports Bar,Late Night",,2020-01,2019-07,POLYGON
+225-222@8ts-zr9-qs5,222-222@8ts-zr9-qs5,Pura Vida Grinds,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.41598,-111.748578,3820 E Main St Ste 9,Mesa,AZ,85205,US,+14806007528,"{
+  ""Fri"": [
+    [
+      ""11:00"",
+      ""15:30""
+    ]
+  ],
+  ""Mon"": [],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""11:00"",
+      ""16:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""11:00"",
+      ""16:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""11:00"",
+      ""16:00""
+    ]
+  ]
+}",Coffee Shop,,,2019-07,POLYGON
+22d-223@8ts-zr9-fmk,,Starz American Bar and Grill,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.423502,-111.773279,2662 E University Dr,Mesa,AZ,85213,US,+14805974127,,"Bar or Pub,Sports Bar,Late Night,American Food",,,2019-07,POLYGON
+247-223@8ts-zgh-dd9,,Uncle Monkeys,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.393811,-111.868878,1720 W Southern Ave,Mesa,AZ,85202,US,+14808902276,,"Bar or Pub,Late Night",,2020-01,2019-07,POLYGON
+zzy-222@8ts-zqf-mff,zzw-222@8ts-zqb-4n5,The Grille,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.489077,-111.670955,7555 E Eagle Crest Dr Las Sendas Golf Club,Mesa,AZ,85207,US,,,"Bar or Pub,Sports Bar,Late Night,American Food",,,2019-07,POLYGON
+222-222@8ts-zgh-6p9,,Kay's Place,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.409052,-111.85619,315 S Alma School Rd,Mesa,AZ,85210,US,+16026666634,"{
+  ""Fri"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""10:00"",
+      ""24:00""
+    ]
+  ]
+}","Bar or Pub,Late Night,Dive Bar",,,2019-07,POLYGON
+zzw-222@8ts-zgh-nt9,zzw-222@8ts-zgh-rx5,Lava Cafe and Hookah Lounge,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.394421,-111.854178,1038 W Southern Ave Ste 2,Mesa,AZ,85210,US,+14806269222,"{
+  ""Fri"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""0:00"",
+      ""3:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""3:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""3:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ]
+}","Bar or Pub,Late Night",,,2019-07,POLYGON
+zzw-222@8ts-zcc-3wk,,Hide A While,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.413424,-111.757939,3403 E Main St,Mesa,AZ,85213,US,,,"Bar or Pub,Late Night",,,2019-07,POLYGON
+zzw-222@8ts-zgk-jd9,,Kirk's Sports Grill,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.415686,-111.838543,260 W Main St,Mesa,AZ,85201,US,+14808334240,,"Bar or Pub,Sports Bar,Late Night",,2020-01,2019-07,POLYGON
+227-222@8ts-zrw-xnq,zzw-224@8ts-zrw-yd9,D'Vine Bistro & Wine Bar,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.467424,-111.682662,2837 N Power Rd Ste 101,Mesa,AZ,85215,US,+14806544171,,"Bar or Pub,Late Night,American Food",,,2019-07,POLYGON
+226-222@8ts-zbh-k4v,,Arizona Event Center,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.391546,-111.842011,1300 S Country Club Dr Ste 105,Mesa,AZ,85210,US,+14807797716,,"Bar or Pub,Cocktail Lounge,Late Night",,2020-01,2019-07,POLYGON
+zzw-224@8ts-zr9-fmk,,Fat Willy's,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.423356,-111.773255,2662 E University Dr,Mesa,AZ,85213,US,+14806150500,,"Bar or Pub,Sports Bar,Late Night",,2020-10,2019-07,POLYGON
+22c-222@8ts-zg8-tn5,224-222@8ts-zg8-rff,The Brass Tap,SG_BRAND_0c7d56c25057eb37e0079b11b1a41939,The Brass Tap,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.435174,-111.865046,1033 N Dobson Rd Ste 104,Mesa,AZ,85201,US,+14806102337,"{
+  ""Fri"": [
+    [
+      ""12:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""0:00"",
+      ""21:00""
+    ],
+    [
+      ""12:00"",
+      ""22:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""23:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""23:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""12:00"",
+      ""22:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""12:00"",
+      ""22:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""12:00"",
+      ""22:00""
+    ]
+  ]
+}","Lunch,American Food,Casual Dining,Bar or Pub,Dinner",,,2019-07,POLYGON
+22f-222@8ts-zj4-975,,Hollywood Hookah,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.37962,-111.87588,1916 W Baseline Rd Ste 13,Mesa,AZ,85202,US,+14802459099,"{
+  ""Fri"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""21:00"",
+      ""24:00""
+    ]
+  ]
+}","Bar or Pub,Late Night",,2020-01,2019-07,POLYGON
+223-224@8ts-zr6-9cq,223-225@8ts-zr6-9cq,The Grid Games & Growlers,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.405871,-111.787489,525 S Gilbert Rd,Mesa,AZ,85204,US,+14806218088,"{
+  ""Fri"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""12:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""12:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ]
+}","Bar or Pub,Late Night",,,2019-07,POLYGON
+zzw-222@8ts-zmz-t5f,,Lily's On Main,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.416119,-111.679841,7000 E Main St,Mesa,AZ,85207,US,+14809246514,,"Bar or Pub,Late Night",,2020-01,2019-07,POLYGON
+22g-222@8ts-zrx-389,22d-222@8ts-zrx-389,RJ'S Cigars,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.464929,-111.686479,6655 E McDowell Rd Ste 112,Mesa,AZ,85215,US,,,"Bar or Pub,Late Night",,,2019-07,POLYGON
+223-224@8ts-zck-5cq,,Molly Brannigans,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.382955,-111.754633,1744 S Val Vista Dr,Mesa,AZ,85204,US,+14805077827,,"Bar or Pub,Late Night",,2021-10,2019-07,POLYGON
+222-222@8ts-zhz-j7q,,RUB Sports Grill,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.363642,-111.878644,2103 W Guadalupe Rd,Mesa,AZ,85202,US,+14803981290,,"Bar or Pub,Sports Bar,Late Night",,2020-01,2019-07,POLYGON
+zzw-226@8ts-zj3-xwk,,Cheat Code Rooftop Lounge,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.391672,-111.856282,1233 S Alma School Rd,Mesa,AZ,85210,US,+16232524411,,"Bar or Pub,Cocktail Lounge,Late Night",,,2019-07,POLYGON
+222-222@8ts-zj3-yd9,222-222@8ts-zj3-yqf,Ojos Locos Sports Cantina,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.384781,-111.857868,1656 S Alma School Rd,Mesa,AZ,85210,US,+14807703921,,"Bar or Pub,Sports Bar,Late Night",,,2019-07,POLYGON
+zzw-223@8ts-zgc-6hq,,STATS Sports Grill,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.43113,-111.878472,860 N Riverview,Mesa,AZ,85201,US,,"{
+  ""Fri"": [
+    [
+      ""6:00"",
+      ""23:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""6:00"",
+      ""23:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""6:00"",
+      ""23:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""6:00"",
+      ""23:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""6:00"",
+      ""23:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""6:00"",
+      ""23:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""6:00"",
+      ""23:00""
+    ]
+  ]
+}","BBQ and Southern Food,Late Night,Sports Bar,Bar or Pub,Tapas",,,2019-07,POLYGON
+229-222@8ts-zj9-tvz,,Pub'n Grub,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.363931,-111.857602,2815 S Alma School Rd Ste 101,Mesa,AZ,85210,US,+14808381348,,"Bar or Pub,Late Night,American Food",,,2019-07,POLYGON
+226-222@8ts-zn5-ffz,,Denim and Diamonds,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.416641,-111.672834,7336 E Main St Ste 106,Mesa,AZ,85207,US,+14808325000,"{
+  ""Fri"": [
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ]
+  ],
+  ""Tue"": [],
+  ""Wed"": [
+    [
+      ""18:00"",
+      ""24:00""
+    ]
+  ]
+}","Bar or Pub,Cocktail Lounge,Late Night",,,2019-07,POLYGON
+zzw-224@8ts-zhy-xh5,227-222@8ts-zhy-xnq,Drunken Tiger,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.378816,-111.878911,1954 S Dobson Rd Ste 5,Mesa,AZ,85202,US,+14807557555,"{
+  ""Fri"": [
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [],
+  ""Wed"": [
+    [
+      ""17:00"",
+      ""24:00""
+    ]
+  ]
+}","Late Night,Korean Food",,,2019-07,POLYGON
+227-222@8ts-zhz-hqz,,O'kelly's,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.364905,-111.879297,2120 W Guadalupe Rd,Mesa,AZ,85202,US,,,"Bar or Pub,Late Night",,,2019-07,POLYGON
+222-222@8ts-zg8-tgk,,Toby Keiths I Love This Bar & Grill,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.435858,-111.865721,1065 N Dobson Rd,Mesa,AZ,85201,US,+14808448629,,"Bar or Pub,Late Night,American Food",,2020-01,2019-07,POLYGON
+zzw-224@8ts-zhz-h3q,,Ella's Cuisine,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.363062,-111.876118,1941 W Guadalupe Rd Ste 105,Mesa,AZ,85202,US,+14803076338,,"Bar or Pub,Late Night,American Food,French Food",,2021-10,2019-07,POLYGON
+zzw-222@8ts-zgk-jsq,,Il Vinaio,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.415584,-111.83896,270 W Main St,Mesa,AZ,85201,US,+14806496476,,"Late Night,American Food,Healthy Food,Bar or Pub,Wine Bar",,,2019-07,POLYGON
+zzw-225@8ts-zbf-py9,223-224@8ts-zbf-pn5,The hub,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.387593,-111.804838,1066 S Stapley Dr,Mesa,AZ,85204,US,,,"Bar or Pub,Sports Bar,Late Night",,,2019-07,POLYGON
+226-223@8ts-zhz-5pv,226-224@8ts-zhz-5pv,Jupe's,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.363113,-111.890702,2655 W Guadalupe Rd,Mesa,AZ,85202,US,+14808971006,,"Bar or Pub,Late Night,Dive Bar",,,2019-07,POLYGON
+zzy-222@8ts-zrv-b49,,Desert Eagle Brewing Company,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.462897,-111.719542,2613 N Thunderbird Cr,Mesa,AZ,85215,US,+14806998781,"{
+  ""Fri"": [
+    [
+      ""14:00"",
+      ""22:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""14:00"",
+      ""21:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""14:00"",
+      ""22:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""16:00"",
+      ""21:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""14:00"",
+      ""21:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""14:00"",
+      ""21:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""14:00"",
+      ""21:00""
+    ]
+  ]
+}","Bar or Pub,Late Night",,2020-01,2019-07,POLYGON
+225-222@8ts-zgk-jjv,,Chupacabra Taproom,,,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),722410,33.415684,-111.836952,14 N Robson,Mesa,AZ,85201,US,,"{
+  ""Fri"": [
+    [
+      ""14:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""14:00"",
+      ""23:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""12:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""12:00"",
+      ""21:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""14:00"",
+      ""23:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""14:00"",
+      ""23:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""14:00"",
+      ""23:00""
+    ]
+  ]
+}","Bar or Pub,Late Night,Wine Bar",,,2019-07,POLYGON

@@ -1,0 +1,275 @@
+﻿PLACEKEY,PARENT_PLACEKEY,LOCATION_NAME,SAFEGRAPH_BRAND_IDS,BRANDS,TOP_CATEGORY,SUB_CATEGORY,NAICS_CODE,LATITUDE,LONGITUDE,STREET_ADDRESS,CITY,REGION,POSTAL_CODE,ISO_COUNTRY_CODE,PHONE_NUMBER,OPEN_HOURS,CATEGORY_TAGS,OPENED_ON,CLOSED_ON,TRACKING_CLOSED_SINCE,GEOMETRY_TYPE
+222-222@8ts-zrx-mx5,,Dignity Health AZ General Hospital Emergency Room Mesa,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.449126,-111.68354,1833 N Power Rd,Mesa,AZ,85205,US,,,,,,2019-07,POLYGON
+zzw-222@8ts-zk4-ghq,,Mountain Vista Medical Center Lp,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.391675,-111.611858,1301 S Crismon Rd,Mesa,AZ,85209,US,+14803586100,,,,,2019-07,POLYGON
+zzy-222@8ts-zrt-2zf,,Cigna Medical Group,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.451259,-111.708164,5735 E. Mckellips Rd. Suite 101 Mesa Az,Mesa,AZ,85215,US,+14807186444,,,,,2019-07,POLYGON
+zzw-225@8ts-zmz-dsq,,Banner Baywood Medical Center,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.411221,-111.687362,6644 E Baywood Ave,Mesa,AZ,85206,US,,"{
+  ""Fri"": [
+    [
+      ""7:30"",
+      ""20:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""9:00"",
+      ""17:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""9:00"",
+      ""17:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+224-222@8ts-zrt-dqf,,Living Free Homecare,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.447679,-111.720705,5135 E Ingram St Ste 5,Mesa,AZ,85205,US,+14804429667,,,,,2019-07,POLYGON
+zzw-223@8ts-zqz-5j9,,Desert Grove Family Medical,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.449041,-111.804622,1855 N Stapley Dr,Mesa,AZ,85203,US,,,,,,2019-07,POLYGON
+225-222@8ts-zgk-8n5,,RTA Homecare,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.408138,-111.882036,2330 W Broadway Rd Ste 107,Mesa,AZ,85202,US,+14808440100,"{
+  ""Fri"": [
+    [
+      ""9:00"",
+      ""17:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""9:00"",
+      ""17:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""9:00"",
+      ""17:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""9:00"",
+      ""17:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""9:00"",
+      ""17:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+zzw-222@8ts-zr7-wrk,,Promise Hospital of Phoenix,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.424941,-111.82165,443 E 6th St,Mesa,AZ,85203,US,+14804273000,,,,,2019-07,POLYGON
+225-227@8ts-zj5-zcq,225-222@8ts-zj5-zcq,Banner Children's at Desert ER,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.389973,-111.877378,1400 S Dobson Rd,Mesa,AZ,85202,US,,,,,,2019-07,POLYGON
+zzw-222@8ts-zcb-6zf,,Arizona Spine And Joint Hospital,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.380365,-111.734408,4620 E Baseline Rd,Mesa,AZ,85206,US,+14808324770,"{
+  ""Fri"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+225-223@8ts-zgd-n3q,,Banner Mesa Medical Center,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.433111,-111.840359,1010 N Country Club Dr,Mesa,AZ,85201,US,+14808341211,,,,2020-01,2019-07,POLYGON
+225-222@8ts-zj5-zcq,,Banner Desert Medical Center,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.389313,-111.877417,1400 S Dobson Rd,Mesa,AZ,85202,US,+14804123000,,,,,2019-07,POLYGON
+zzw-222@8ts-zbh-fpv,,Hacienda Childrens Hospital Inc,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.381539,-111.844576,610 W Jerome Ave,Mesa,AZ,85210,US,+14805792400,,,,2020-01,2019-07,POLYGON
+zzw-226@8ts-zk4-wzf,zzw-222@8ts-zk4-ghq,Desert Grove Family Medical,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.390995,-111.609878,10238 E Hampton Ave,Mesa,AZ,85209,US,,,,,,2019-07,POLYGON
+zzw-225@8ts-zj5-yjv,,Banner Surgery Center Desert,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.387585,-111.8762,1500 S Dobson Rd,Mesa,AZ,85202,US,,"{
+  ""Fri"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+zzw-223@8ts-zbf-5s5,,Cigna Medical Group,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.381378,-111.809131,1840 S. Stapley Dr. 101 Mesa Az,Mesa,AZ,85204,US,,"{
+  ""Fri"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""8:00"",
+      ""20:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+225-223@8ts-zj5-zcq,225-222@8ts-zj5-zcq,Cardon Children's Medical Center,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.389929,-111.877376,1400 S Dobson Rd,Mesa,AZ,85202,US,,,,,,2019-07,POLYGON
+222-222@8ts-zr7-wrk,,Arizona Regional Medical Center,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.42491,-111.821493,515 N Mesa Dr,Mesa,AZ,85201,US,+14808983333,,,,2020-01,2019-07,POLYGON
+227-222@8ts-zbj-j35,,HonorHealth Medical Group Mesa Southern Avenue,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.394361,-111.776442,2530 E Southern Ave,Mesa,AZ,85204,US,+14808922323,,,,2020-01,2019-07,POLYGON
+22c-222@8ts-zbj-tn5,,Dignity Health AZ General Hospital Emergency Room Mesa Baseline,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.380564,-111.788942,1910 S Gilbert Rd,Mesa,AZ,85204,US,,,,,,2019-07,POLYGON
+223-222@8ts-zs2-n3q,,East Valley Endoscopy,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.414284,-111.701378,6020 E Arbor Ave,Mesa,AZ,85206,US,+14806482576,"{
+  ""Fri"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""7:00"",
+      ""17:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+222-223@8ts-zn8-hyv,,Cigna Medical Group,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.383123,-111.684926,6811 E Superstition Springs Blvd,Mesa,AZ,85209,US,+14806414000,"{
+  ""Fri"": [
+    [
+      ""8:00"",
+      ""17:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""8:00"",
+      ""17:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""8:00"",
+      ""17:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""8:00"",
+      ""17:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""8:00"",
+      ""17:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+225-222@8ts-zmz-jgk,,Banner Baywood Surgery Center,,,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,622110,33.409166,-111.692588,6424 E Broadway Rd Ste 102,Mesa,AZ,85206,US,+14806419292,,,,,2019-07,POLYGON

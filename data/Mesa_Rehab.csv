@@ -1,0 +1,349 @@
+﻿PLACEKEY,PARENT_PLACEKEY,LOCATION_NAME,SAFEGRAPH_BRAND_IDS,BRANDS,TOP_CATEGORY,SUB_CATEGORY,NAICS_CODE,LATITUDE,LONGITUDE,STREET_ADDRESS,CITY,REGION,POSTAL_CODE,ISO_COUNTRY_CODE,PHONE_NUMBER,OPEN_HOURS,CATEGORY_TAGS,OPENED_ON,CLOSED_ON,TRACKING_CLOSED_SINCE,GEOMETRY_TYPE
+224-222@8ts-zgc-p5f,,Mesa Christian Health And Rehabilitation Center,,,Nursing Care Facilities (Skilled Nursing Facilities),Nursing Care Facilities (Skilled Nursing Facilities),623110,33.434691,-111.837265,255 W Brown Rd,Mesa,AZ,85201,US,,,,,,2019-07,POLYGON
+225-223@8ts-zc9-qpv,,Advanced Spine Rehab and Athletics,,,Offices of Other Health Practitioners,Offices of Chiropractors,621310,33.380519,-111.743162,4121 E Valley Auto Dr Ste 110,Mesa,AZ,85206,US,,,,,,2019-07,POLYGON
+22k-223@8ts-zcb-3wk,,Nexus Rehab Spine,,,Offices of Other Health Practitioners,Offices of Chiropractors,621310,33.382222,-111.729548,4838 E Baseline Rd Ste 122,Mesa,AZ,85206,US,,"{
+  ""Fri"": [
+    [
+      ""8:30"",
+      ""18:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""8:30"",
+      ""18:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""8:30"",
+      ""18:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""8:30"",
+      ""12:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""8:30"",
+      ""18:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+223-225@8ts-zgh-4n5,,Alcohol Drug Rehab Mesa,,,Offices of Other Health Practitioners,Offices of All Other Miscellaneous Health Practitioners,621399,33.413149,-111.857263,1225 W Main St Ste 402A,Mesa,AZ,85201,US,+14803479436,,,,,2019-07,POLYGON
+zzw-222@8ts-zmm-mp9,,Bloom Performance and Rehab,,,Offices of Other Health Practitioners,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",621340,33.359793,-111.635461,3035 S Ellsworth Rd Ste 128 Bldg 4,Mesa,AZ,85212,US,+14803576500,"{
+  ""Fri"": [
+    [
+      ""8:00"",
+      ""14:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+222-222@8ts-zbm-kj9,,Mesa Chiropractic and Rehabilitation,,,Offices of Other Health Practitioners,Offices of Chiropractors,621310,33.403845,-111.822507,613 S Mesa Dr,Mesa,AZ,85210,US,+14806441227,,,,,2019-07,POLYGON
+zzw-222@8ts-zbp-t7q,,Snapp Therapeutics Massage and Rehabilitation,,,Offices of Other Health Practitioners,Offices of All Other Miscellaneous Health Practitioners,621399,33.376841,-111.845147,2152 S Vineyard Ste 111 Bldg 5A,Mesa,AZ,85210,US,+16237557041,"{
+  ""Fri"": [
+    [
+      ""9:00"",
+      ""19:00""
+    ]
+  ],
+  ""Mon"": [],
+  ""Sat"": [
+    [
+      ""8:30"",
+      ""17:00""
+    ]
+  ],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""9:00"",
+      ""19:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""9:00"",
+      ""19:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""9:00"",
+      ""19:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+22f-222@8ts-zmk-mc5,,Southwest Spine & Rehab Chiropractic,,,Offices of Other Health Practitioners,Offices of Chiropractors,621310,33.361557,-111.635468,2919 S Ellsworth Rd Ste 102,Mesa,AZ,85212,US,+14803542008,"{
+  ""Fri"": [
+    [
+      ""9:00"",
+      ""18:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""9:00"",
+      ""18:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""9:00"",
+      ""12:00""
+    ]
+  ],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""9:00"",
+      ""18:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""9:00"",
+      ""18:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""9:00"",
+      ""18:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+zzw-222@8ts-zn8-54v,,Endurance Rehabilitation,,,Offices of Other Health Practitioners,Offices of All Other Miscellaneous Health Practitioners,621399,33.381216,-111.691107,6636 E Baseline Rd Ste 102,Mesa,AZ,85206,US,+14806345545,"{
+  ""Fri"": [
+    [
+      ""7:00"",
+      ""18:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+zzw-222@8ts-zs2-kvf,,Desert Blossom Health & Rehab Center,,,Nursing Care Facilities (Skilled Nursing Facilities),Nursing Care Facilities (Skilled Nursing Facilities),623110,33.413731,-111.705932,60 S 58th St,Mesa,AZ,85206,US,+14808323903,,,,,2019-07,POLYGON
+223-222@8ts-zbj-8qf,,Drug and Alcohol Rehab Mesa,,,Offices of Other Health Practitioners,Offices of All Other Miscellaneous Health Practitioners,621399,33.398172,-111.791942,931 S Toltec,Mesa,AZ,85204,US,+14804206315,,,,,2019-07,POLYGON
+zzw-222@8ts-zmz-dsq,zzw-225@8ts-zmz-dsq,Rhodes Rehabilitation Institute,,,Offices of Other Health Practitioners,Offices of All Other Miscellaneous Health Practitioners,621399,33.411337,-111.687314,6644 E Baywood Ave,Mesa,AZ,85206,US,,,,,,2019-07,POLYGON
+zzw-222@8ts-zcf-tn5,,Montecito Post Acute Care And Rehabilitation,,,Nursing Care Facilities (Skilled Nursing Facilities),Nursing Care Facilities (Skilled Nursing Facilities),623110,33.414008,-111.727372,51 S 48th St,Mesa,AZ,85206,US,+14808328333,,,,,2019-07,POLYGON
+222-222@8ts-zmz-j35,,Mission Palms Of Mesa Health And Rehabilitation Center,,,Nursing Care Facilities (Skilled Nursing Facilities),Nursing Care Facilities (Skilled Nursing Facilities),623110,33.40981,-111.691164,6461 E Baywood Ave,Mesa,AZ,85206,US,,,,,,2019-07,POLYGON
+225-222@8ts-zc9-qpv,,Nexus Rehab Spine,,,Offices of Other Health Practitioners,Offices of Chiropractors,621310,33.380498,-111.74324,4121 E Valley Auto Dr Ste 110,Mesa,AZ,85206,US,,"{
+  ""Fri"": [
+    [
+      ""8:30"",
+      ""18:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""8:30"",
+      ""18:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""8:30"",
+      ""18:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""8:30"",
+      ""18:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""8:30"",
+      ""18:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+226-222@8ts-zcm-cyv,zzy-222@8ts-zcm-n89,Sti Physical Therapy & Rehabilitation,,,Offices of Other Health Practitioners,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",621340,33.381088,-111.703534,5845 E Still Cir Ste 109,Mesa,AZ,85206,US,+14807595200,,,,,2019-07,POLYGON
+222-222@8ts-zn2-djv,,STi Physical Therapy and Rehab,,,Offices of Other Health Practitioners,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",621340,33.409716,-111.69417,6309 E Baywood Ave,Mesa,AZ,85206,US,+16028895200,"{
+  ""Fri"": [
+    [
+      ""7:00"",
+      ""13:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""7:00"",
+      ""18:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""7:00"",
+      ""18:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""7:00"",
+      ""18:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""7:00"",
+      ""18:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+222-222@8ts-zgc-bff,224-222@8ts-zg8-rff,Ideal Rehabilitation,,,Offices of Other Health Practitioners,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",621340,33.430092,-111.873712,805 N Dobson Rd Ste 105,Mesa,AZ,85201,US,,"{
+  ""Fri"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""7:00"",
+      ""19:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+22q-222@8ts-zj9-m49,,AZ Family health & Rehab Center,,,"Colleges, Universities, and Professional Schools","Colleges, Universities, and Professional Schools",611310,33.361095,-111.873351,1824 W Plata Ave,Mesa,AZ,85202,US,+16026962225,,,,,2019-07,POLYGON
+222-223@8ts-zrz-v75,,Alta Mesa Health And Rehabilitation,,,Nursing Care Facilities (Skilled Nursing Facilities),Nursing Care Facilities (Skilled Nursing Facilities),623110,33.423478,-111.70455,5848 E University Dr,Mesa,AZ,85205,US,+14809810098,,,,,2019-07,POLYGON
+22c-222@8ts-zbm-pd9,,Triad Pain Management & Rehabilitation,,,Offices of Physicians,Offices of Physicians (except Mental Health Specialists),621111,33.394882,-111.804348,1111 S Stapley Dr Ste 103,Mesa,AZ,85204,US,,"{
+  ""Fri"": [
+    [
+      ""8:00"",
+      ""19:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""8:00"",
+      ""19:00""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [],
+  ""Tue"": [
+    [
+      ""8:00"",
+      ""19:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""8:00"",
+      ""19:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+zzw-222@8ts-zgk-nwk,,Mesa Rehab & Detox,,,Offices of Other Health Practitioners,Offices of Mental Health Practitioners (except Physicians),621330,33.413943,-111.830428,1 E Main St,Mesa,AZ,85201,US,+14807022497,,,,,2019-07,POLYGON
+22y-222@8ts-zn6-8vz,,Total Body Rehab,,,Offices of Other Health Practitioners,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",621340,33.378584,-111.652331,8419 E Baseline Rd,Mesa,AZ,85209,US,,"{
+  ""Fri"": [],
+  ""Mon"": [
+    [
+      ""14:00"",
+      ""17:30""
+    ]
+  ],
+  ""Sat"": [],
+  ""Sun"": [],
+  ""Thu"": [
+    [
+      ""8:30"",
+      ""11:30""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""8:30"",
+      ""23:30""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""14:00"",
+      ""17:30""
+    ]
+  ]
+}",,,,2019-07,POLYGON

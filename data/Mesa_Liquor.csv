@@ -1,0 +1,396 @@
+﻿PLACEKEY,PARENT_PLACEKEY,LOCATION_NAME,SAFEGRAPH_BRAND_IDS,BRANDS,TOP_CATEGORY,SUB_CATEGORY,NAICS_CODE,LATITUDE,LONGITUDE,STREET_ADDRESS,CITY,REGION,POSTAL_CODE,ISO_COUNTRY_CODE,PHONE_NUMBER,OPEN_HOURS,CATEGORY_TAGS,OPENED_ON,CLOSED_ON,TRACKING_CLOSED_SINCE,GEOMETRY_TYPE
+222-223@8ts-zqx-jjv,,Matty G's Steakburgers,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.437607,-111.788652,1958 E Brown Rd,Mesa,AZ,85203,US,+14803067406,"{
+  ""Fri"": [
+    [
+      ""11:00"",
+      ""21:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""11:00"",
+      ""21:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""11:00"",
+      ""21:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""11:00"",
+      ""21:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""11:00"",
+      ""21:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""11:00"",
+      ""21:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""11:00"",
+      ""21:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+222-222@8ts-zn8-4y9,zzw-222@8ts-zn8-8d9,Edge Grill and Bar,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.380256,-111.692449,6542 E Baseline Rd,Mesa,AZ,85206,US,,"{
+  ""Fri"": [
+    [
+      ""7:00"",
+      ""17:30""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""7:00"",
+      ""17:30""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""7:00"",
+      ""17:30""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""7:00"",
+      ""17:30""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""7:00"",
+      ""20:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""7:00"",
+      ""17:30""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""7:00"",
+      ""20:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+222-223@8ts-zcb-pjv,,Alans Beer and Wine,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.408656,-111.770534,361 S Lindsay Rd,Mesa,AZ,85204,US,+14808307867,,,,,2019-07,POLYGON
+229-222@8ts-zgk-ty9,,Sun Devil Liquors,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.420312,-111.839528,235 N Country Club Dr,Mesa,AZ,85201,US,+14808345050,"{
+  ""Fri"": [
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""9:00"",
+      ""23:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""12:00"",
+      ""22:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""9:00"",
+      ""23:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""9:00"",
+      ""23:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""9:00"",
+      ""23:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+228-223@8ts-zcc-n5z,,Tucked Away Craft Kitchen & Bar,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.395103,-111.751444,3630 E Southern Ave Ste 106,Mesa,AZ,85206,US,+14805505577,,,,,2019-07,POLYGON
+226-222@8ts-zj3-cdv,,Arizona Liquor Industry Consultants,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.381924,-111.858128,1811 S Alma School Rd Ste 268,Mesa,AZ,85210,US,+14805623420,,,,,2019-07,POLYGON
+22n-222@8ts-zbk-vxq,,Broadway Liquor,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.407467,-111.822619,405 E Broadway Rd,Mesa,AZ,85204,US,+14809648373,,,,,2019-07,POLYGON
+222-222@8ts-zgj-hnq,,Z Convenience Store,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.415137,-111.877158,2114 W Main St,Mesa,AZ,85201,US,+14807337777,"{
+  ""Fri"": [
+    [
+      ""8:00"",
+      ""22:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""8:00"",
+      ""22:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""8:00"",
+      ""22:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""8:00"",
+      ""22:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""8:00"",
+      ""22:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""8:00"",
+      ""22:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""8:00"",
+      ""22:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+227-222@8ts-zr6-9mk,,Mesa Liquor,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.408436,-111.789675,1930 E Broadway Rd,Mesa,AZ,85204,US,+14806681200,"{
+  ""Fri"": [
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""2:00""
+    ],
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""9:00"",
+      ""24:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+227-222@8ts-zk3-wx5,,Skyline Liquor,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.408117,-111.615918,9950 E Broadway Rd,Mesa,AZ,85208,US,,"{
+  ""Fri"": [
+    [
+      ""7:00"",
+      ""22:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""7:00"",
+      ""22:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""7:00"",
+      ""22:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""9:00"",
+      ""22:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""7:00"",
+      ""22:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""7:00"",
+      ""22:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""7:00"",
+      ""22:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+222-222@8ts-zgg-p35,222-225@8ts-zgg-p35,Fiesta Liquor,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.401564,-111.856645,753 S Alma School Rd,Mesa,AZ,85210,US,+14808344488,,,,,2019-07,POLYGON
+22f-222@8ts-zrm-8qf,,Super Stop Liquor,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.450973,-111.838143,321 W McKellips Rd Ste 101,Mesa,AZ,85201,US,+14808988913,"{
+  ""Fri"": [
+    [
+      ""8:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""8:00"",
+      ""23:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""8:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""1:00""
+    ],
+    [
+      ""10:00"",
+      ""22:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""8:00"",
+      ""23:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""8:00"",
+      ""23:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""8:00"",
+      ""23:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
+222-223@8ts-zbp-t5f,,Tap Truck,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.375727,-111.843258,2150 S Country Club Dr,Mesa,AZ,85210,US,,,,,,2019-07,POLYGON
+zzw-224@8ts-zgc-r8v,,Beer World,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.443503,-111.8402,1530 N Country Club Dr,Mesa,AZ,85201,US,+14804611542,,,,,2019-07,POLYGON
+222-222@8ts-zgc-p7q,,Fairway Liquor Market,,,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",445310,33.435544,-111.838963,340 W Brown Rd,Mesa,AZ,85201,US,+14804645695,"{
+  ""Fri"": [
+    [
+      ""0:00"",
+      ""1:30""
+    ],
+    [
+      ""8:00"",
+      ""24:00""
+    ]
+  ],
+  ""Mon"": [
+    [
+      ""8:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sat"": [
+    [
+      ""0:00"",
+      ""1:30""
+    ],
+    [
+      ""8:00"",
+      ""24:00""
+    ]
+  ],
+  ""Sun"": [
+    [
+      ""0:00"",
+      ""1:30""
+    ],
+    [
+      ""8:00"",
+      ""24:00""
+    ]
+  ],
+  ""Thu"": [
+    [
+      ""8:00"",
+      ""24:00""
+    ]
+  ],
+  ""Tue"": [
+    [
+      ""8:00"",
+      ""24:00""
+    ]
+  ],
+  ""Wed"": [
+    [
+      ""8:00"",
+      ""24:00""
+    ]
+  ]
+}",,,,2019-07,POLYGON
