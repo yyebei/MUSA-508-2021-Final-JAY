@@ -131,10 +131,10 @@ st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 'ESRI:102249', agr = "consta
 
 
 
-#ggplot() + 
-geom_sf(data = Boundary) +
-geom_sf(data = Neiborhood) +
-geom_sf(data = Hospitals.sf) 
+ggplot() + 
+  geom_sf(data = Boundary) +
+  geom_sf(data = Neiborhood) +
+  geom_sf(data = Rehab.sf) 
 
 
 
@@ -170,12 +170,15 @@ ggplot() +
 
 ```{r}
 overdues_net <- 
-  dplyr::select(heroin_overdose_original) %>% 
+  dplyr::select(heroin_overdose_original,day_of_week,patient_age,month,gender) %>% 
   mutate(countoverdues = 1) %>% 
+  st_join(., fishnet, join=st_within) %>%
   aggregate(., fishnet, sum) %>%
   mutate(countoverdues = replace_na(countoverdues, 0),
          uniqueID = rownames(.),
          cvID = sample(round(nrow(fishnet) / 24), size=nrow(fishnet), replace = TRUE))
+
+  
 
 ggplot() +
   geom_sf(data = Boundary) +
@@ -265,5 +268,11 @@ final_net <-
   left_join(overdues_net, st_drop_geometry(vars_net), by="uniqueID") 
 
 
-
+final_net.try <-
+  st_centroid(final_net) %>%
+    st_join(dplyr::select(Neighborhoods, name)) %>%
+      st_drop_geometry() %>%
+      left_join(dplyr::select(final_net, geometry, uniqueID)) %>%
+      st_sf() %>%
+  na.omit()
 ```
