@@ -178,7 +178,7 @@ overdues_net <-
          cvID = sample(round(nrow(fishnet) / 24), size=nrow(fishnet), replace = TRUE))
 
 
-######try to join overdues net with original features
+######try to join overdues net with original features failed! office hour
 overdues_net2 <- heroin_overdose_original%>%
   dplyr::select(-location_state,-incident_disposition,-location_zip,-treatment_or_medication_given,-latitude,
          -location_address,-location_city,-longitude,-incident_date)%>% 
@@ -275,9 +275,30 @@ do.call(grid.arrange,c(mapList, ncol = 3, top = "Nearest Neighbor risk Factors b
 
 
 ```
+```{r}
+Centercity <-
+  st_centroid(Boundary)
+
+vars_net$CenterDistance =
+  st_distance(st_centroid(vars_net),Centercity)
+```
+
+
 ```{r finalnet}
 final_net <-
   left_join(overdues_net, st_drop_geometry(vars_net), by="uniqueID") 
+
+
+final_net <-
+  st_centroid(final_net) %>%
+    st_join(dplyr::select(Neiborhood, name,geoid_data)) %>%
+      st_drop_geometry() %>%
+      left_join(dplyr::select(final_net, geometry, uniqueID)) %>%
+      st_sf() %>%
+  na.omit()
+
+
+
 
 
 
