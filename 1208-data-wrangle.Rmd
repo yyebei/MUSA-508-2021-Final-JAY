@@ -1,0 +1,284 @@
+---
+title: "HW3-508"
+author: "YEBEI YAO"
+date: "11/30/2021"
+output:
+  html_document:
+    highlight: zenburn
+    theme: flatly
+    toc: true
+    toc_float: true
+    code_folding: hide
+---
+
+**01.set up**
+========================================
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+
+library(tidyverse)
+library(sf)
+#install.packages('RSocrata')
+library(RSocrata)
+library(viridis)
+library(spatstat)
+library(raster)
+library(spdep)
+library(FNN)
+library(grid)
+library(gridExtra)
+library(knitr)
+library(kableExtra)
+library(tidycensus)
+library(tidyr)
+library(dplyr)
+library(magrittr)
+library(mapview)
+library(caret)
+library(ckanr) 
+library(ggcorrplot)
+library(jtools)     
+library(stargazer) 
+library(broom)
+library(tufte)
+library(rmarkdown)
+library(viridis)
+library(spatstat) 
+library(rgdal)
+
+
+# functions
+root.dir = "https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/DATA/"
+source("https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/functions.r")
+
+```
+```{r loading_data, message = FALSE, warning = FALSE}
+setwd("C:\\Users\\candice\\Desktop\\Class\\MUSA508 public policy analytics\\Final\\MUSA-508-2021-Final-JAY")
+
+#overdues data
+heroin_overdose_original <- st_read('https://data.mesaaz.gov/resource/qufy-tzv6.geojson',crs='ESRI:102249')
+
+#loading csv file
+liquor <-st_read('data\\Mesa_Liquor.csv')
+Bar <- st_read('data\\Mesa_Bars.csv')
+Hospitals <- st_read('data\\Mesa_Hospitals.csv')
+Rehab <- st_read('data\\Mesa_Rehab.csv')
+
+#base data
+##boundary:
+Boundary <-st_read('https://data.mesaaz.gov/resource/qwhq-nske.geojson',crs='ESRI:102249')
+##neighborhood(in census tract):
+Neiborhood <-st_read('data\\Mesa Census Tracts To City Boundary.geojson',crs='ESRI:102249')
+  
+##street center line:
+Street <- st_read('https://data.mesaaz.gov/resource/9uib-89q3.geojson',crs='ESRI:102249')
+##street light:
+Stlight <- st_read('https://data.mesaaz.gov/resource/jrtd-htue.geojson',crs='ESRI:102249')
+##police incidents:
+Police_incidents <-st_read('data\\Police_Incidents.csv',crs='ESRI:102249')
+
+#mapview(Stlight)
+```
+
+
+```{r process_data, message = FALSE, warning = FALSE}
+#fishnet
+fishnet <- 
+  st_make_grid(Boundary,
+               cellsize = 0.005, 
+               square = TRUE) %>%
+  .[Boundary] %>%            # <- MDH Added
+  st_sf() %>%
+  mutate(uniqueID = rownames(.))
+
+#point data
+Stlight.sf <- Stlight%>%
+  dplyr::select(geometry)%>%
+  distinct()%>%
+  mutate(Legend = "Stlight")
+
+
+Bar.sf <- Bar%>%
+  st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 'ESRI:102249', agr = "constant")%>%
+  dplyr::select(geometry)%>%
+  na.omit()%>%
+  distinct()%>%
+  mutate(Legend = "Bar")
+  
+liquor.sf <-liquor%>%
+  st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 'ESRI:102249', agr = "constant")%>%
+  dplyr::select(geometry)%>%
+  na.omit()%>%
+  distinct()%>%
+  mutate(Legend = "Liquor")
+
+Hospitals.sf <- Hospitals%>%
+  st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 'ESRI:102249', agr = "constant")%>%
+  dplyr::select(geometry)%>%
+  na.omit()%>%
+  distinct()%>%
+  mutate(Legend = "Hospital")
+
+
+
+Rehab.sf<- Rehab%>%
+st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 'ESRI:102249', agr = "constant")%>%
+  dplyr::select(geometry)%>%
+  na.omit()%>%
+  distinct()%>%
+  mutate(Legend = "Rehab")
+
+
+
+
+#ggplot() + 
+geom_sf(data = Boundary) +
+geom_sf(data = Neiborhood) +
+geom_sf(data = Hospitals.sf) 
+
+
+
+#police incidents haven't wrangle, we can do that if it is necessary.
+
+
+
+heroin_overdose.sf <- heroin_overdose_original%>%
+  distinct()
+
+
+```
+
+```{r}
+#Plotting point data and density
+grid.arrange(ncol=2,nrow=2,heights=(c(5,1)),widths=(c(1,1)),
+ggplot() + 
+  geom_sf(data = Boundary) +
+  geom_sf(data =heroin_overdose_original, colour="#d7b5d8", size=1, show.legend = "point") +
+  labs(title= "heroin overduse, Mesa - 2017-2021") +
+  mapTheme(title_size = 12),
+
+ggplot() + 
+  geom_sf(data = Boundary) +
+  stat_density2d(data = data.frame(st_coordinates(heroin_overdose_original)), 
+                 aes(X, Y, fill = ..level.., alpha = ..level..),
+                 size = 0.01, bins = 50, geom = 'polygon') +
+  scale_fill_viridis(option = "plasma") +
+  scale_alpha(range = c(0.00, 0.70), guide = FALSE) +
+  labs(title = "Density of Heroin Overdose") +
+  mapTheme(title_size = 12) + theme(legend.position = "none"))
+```
+try to join overdues net with original features
+```{r}
+overdues_net <- 
+  dplyr::select(heroin_overdose_original)%>% 
+  mutate(countoverdues = 1) %>% 
+  aggregate(., fishnet, sum) %>%
+  mutate(countoverdues = replace_na(countoverdues, 0),
+         uniqueID = rownames(.),
+         cvID = sample(round(nrow(fishnet) / 24), size=nrow(fishnet), replace = TRUE))
+
+
+######try to join overdues net with original features
+overdues_net2 <- heroin_overdose_original%>%
+  dplyr::select(-location_state,-incident_disposition,-location_zip,-treatment_or_medication_given,-latitude,
+         -location_address,-location_city,-longitude,-incident_date)%>% 
+  mutate(countoverdues = 1) %>% 
+  aggregate(., fishnet, sum) %>%
+  mutate(countoverdues = replace_na(countoverdues, 0),
+         uniqueID = rownames(.),
+         cvID = sample(round(nrow(fishnet) / 24), size=nrow(fishnet), replace = TRUE))
+
+######try to join overdues net with original features
+
+
+ggplot() +
+  geom_sf(data = Boundary) +
+  geom_sf(data = overdues_net, aes(fill = countoverdues)) +
+  scale_fill_viridis() +
+  labs(title = "Count of Heroin Overdues for the fishnet") +
+  mapTheme()
+```
+
+
+```{r}
+# Count of risk factors by grid cell
+vars_net <- 
+  rbind(Stlight.sf,Rehab.sf,Hospitals.sf,liquor.sf,Bar.sf) %>%
+  st_join(., fishnet, join=st_within) %>%
+  st_drop_geometry() %>%
+  group_by(uniqueID, Legend) %>%
+  summarize(count = n()) %>%
+    full_join(fishnet) %>%
+    spread(Legend, count, fill=0) %>%
+    st_sf() %>%
+    dplyr::select(-`<NA>`) %>%
+    na.omit() %>%
+    ungroup()
+
+vars_net.long <- 
+  gather(vars_net, Variable, value, -geometry, -uniqueID)
+
+vars <- unique(vars_net.long$Variable)
+mapList <- list()
+
+for(i in vars){
+  mapList[[i]] <- 
+    ggplot() +
+      geom_sf(data = filter(vars_net.long, Variable == i), aes(fill=value), colour=NA) +
+      scale_fill_viridis(name="") +
+      labs(title=i) +
+      mapTheme()}
+
+do.call(grid.arrange,c(mapList, ncol=3, top="Risk Factors by Fishnet"))
+
+```
+
+```{r}
+# Nearest neighbor features
+
+st_c <- st_coordinates
+st_coid <- st_centroid
+
+
+vars_net <-
+  vars_net %>%
+    mutate(
+      Hospital.nn =
+        nn_function(st_c(st_coid(vars_net)), st_c(Hospitals.sf),3),
+      Stlight.nn =
+        nn_function(st_c(st_coid(vars_net)), st_c(Stlight.sf),3),
+      Rehab.nn =
+        nn_function(st_c(st_coid(vars_net)), st_c(Rehab.sf),3),
+      liquor.nn =
+        nn_function(st_c(st_coid(vars_net)), st_c(liquor.sf),3),
+      Bar.nn =
+        nn_function(st_c(st_coid(vars_net)), st_c(Bar.sf),3))
+
+
+
+vars_net.long.nn <- 
+  dplyr::select(vars_net, ends_with(".nn")) %>%
+    gather(Variable, value, -geometry)
+
+vars <- unique(vars_net.long.nn$Variable)
+mapList <- list()
+
+for(i in vars){
+  mapList[[i]] <- 
+    ggplot() +
+      geom_sf(data = filter(vars_net.long.nn, Variable == i), aes(fill=value), colour=NA) +
+      scale_fill_viridis(name="") +
+      labs(title=i) +
+      mapTheme()}
+
+do.call(grid.arrange,c(mapList, ncol = 3, top = "Nearest Neighbor risk Factors by Fishnet"))
+
+
+```
+```{r finalnet}
+final_net <-
+  left_join(overdues_net, st_drop_geometry(vars_net), by="uniqueID") 
+
+
+
+```
