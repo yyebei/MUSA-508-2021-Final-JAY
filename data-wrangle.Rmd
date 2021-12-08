@@ -10,6 +10,18 @@ output:
     toc_float: true
     code_folding: hide
 ---
+# Motivation
+What is the use case; why would someone want to replicate your analysis and why would they use this approach?
+
+b. Describe the data you used.
+c. Describe your exploratory analysis using maps and plots.
+d. What is the spatial or space/time process?
+d. Describe your modeling approach and show how you arrived at your final model.
+e. Validate your model with cross-validation and describe how your predictions are useful (accuracy vs. generalizability).
+f. Provide additional maps and data visualizations to show that your model is useful.
+g. Talk about how your analysis meets the use case you set out to address.
+h. What could you do to make the analysis better?
+
 
 **01.set up**
 ========================================
@@ -262,6 +274,7 @@ do.call(grid.arrange,c(mapList, ncol = 3, top = "Nearest Neighbor risk Factors b
 
 
 ```
+
 ```{r finalnet}
 final_net <-
   left_join(overdues_net, st_drop_geometry(vars_net), by="uniqueID") 
