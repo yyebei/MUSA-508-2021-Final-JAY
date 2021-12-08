@@ -52,34 +52,54 @@ root.dir = "https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analyti
 source("https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/functions.r")
 
 ```
-```{r loading_data, message = FALSE, warning = FALSE}
-setwd("C:\\Users\\candice\\Desktop\\Class\\MUSA508 public policy analytics\\Final\\MUSA-508-2021-Final-JAY")
 
-#overdues data
-heroin_overdose_original <- st_read('https://data.mesaaz.gov/resource/qufy-tzv6.geojson',crs='ESRI:102249')
+
+```{r loading_data, message = FALSE, warning = FALSE}
+setwd("D:/MUSA 508/MUSA-508-2021-Final-JAY")
 
 #loading csv file
-liquor <-st_read('data\\Mesa_Liquor.csv')
-Bar <- st_read('data\\Mesa_Bars.csv')
-Hospitals <- st_read('data\\Mesa_Hospitals.csv')
-Rehab <- st_read('data\\Mesa_Rehab.csv')
+liquor <-st_read('data/Mesa_Liquor.csv')
+Bar <- st_read('data/Mesa_Bars.csv')
+Hospitals <- st_read('data/Mesa_Hospitals.csv')
+Rehab <- st_read('data/Mesa_Rehab.csv')
 
 #base data
 ##boundary:
 Boundary <-st_read('https://data.mesaaz.gov/resource/qwhq-nske.geojson',crs='ESRI:102249')
 ##neighborhood(in census tract):
-Neiborhood <-st_read('data\\Mesa Census Tracts To City Boundary.geojson',crs='ESRI:102249')
+Neighborhood <-st_read('data/Mesa Census Tracts To City Boundary.geojson',crs='ESRI:102249')
   
 ##street center line:
 Street <- st_read('https://data.mesaaz.gov/resource/9uib-89q3.geojson',crs='ESRI:102249')
 ##street light:
 Stlight <- st_read('https://data.mesaaz.gov/resource/jrtd-htue.geojson',crs='ESRI:102249')
-##police incidents:
-Police_incidents <-st_read('data\\Police_Incidents.csv',crs='ESRI:102249')
+
 
 #mapview(Stlight)
 ```
 
+```{r}
+#overdues data
+heroin_overdose_original <- st_read('https://data.mesaaz.gov/resource/qufy-tzv6.geojson',crs='ESRI:102249')
+```
+
+```{r include=FALSE}
+#Select all the crime type that relate to drug/drugs
+Police_incidents <-st_read('data/Police_Incidents.csv',crs='ESRI:102249')%>%
+   filter(grepl('DRUG',Crime.Type))%>%
+   
+    mutate(x = gsub("[()]", "", Location.1)) %>%
+    separate(x,into= c("Y","X"), sep=",") %>%
+    mutate(X = as.numeric(X),Y = as.numeric(Y)) %>% 
+    na.omit() %>%
+    st_as_sf(coords = c("X", "Y"), crs = 4326, agr = "constant")%>%
+    st_transform('ESRI:102249') %>% 
+    distinct()
+
+Drugcrime.sf<-Police_incidents%>% 
+  dplyr::select(geometry)%>% 
+  mutate(Legend='Drug_Crime')
+```
 
 ```{r process_data, message = FALSE, warning = FALSE}
 #fishnet
@@ -128,24 +148,6 @@ st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 'ESRI:102249', agr = "consta
   distinct()%>%
   mutate(Legend = "Rehab")
 
-
-
-
-#ggplot() + 
-geom_sf(data = Boundary) +
-geom_sf(data = Neiborhood) +
-geom_sf(data = Hospitals.sf) 
-
-
-
-#police incidents haven't wrangle, we can do that if it is necessary.
-
-
-
-heroin_overdose.sf <- heroin_overdose_original%>%
-  distinct()
-
-
 ```
 
 ```{r}
@@ -188,7 +190,7 @@ ggplot() +
 ```{r}
 # Count of risk factors by grid cell
 vars_net <- 
-  rbind(Stlight.sf,Rehab.sf,Hospitals.sf,liquor.sf,Bar.sf) %>%
+  rbind(Stlight.sf,Rehab.sf,Hospitals.sf,liquor.sf,Bar.sf,Drugcrime.sf) %>%
   st_join(., fishnet, join=st_within) %>%
   st_drop_geometry() %>%
   group_by(uniqueID, Legend) %>%
